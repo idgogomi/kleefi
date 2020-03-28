@@ -152,31 +152,44 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="footer">copyright 2020 - kleefi.com</div> -->
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-      function saveContact(event) {
-        event.preventDefault(); 
-        var form = $('#formContact').find('form');
-        form.submit(function() { 
-          var options = {
-            target: '#formContact',
-            url: 'src/contact_save.php',
-            type: 'post'
-          };
-          $(this).ajaxSubmit(options); 
-          return false; 
-        });
-        form.submit();
-      }
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5e58e9a0a89cda5a18886d8d/1e4gc73is';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+      })();
     </script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/jquery.form.js"></script>
+    <!--End of Tawk.to Script-->
+  </body>
+  <!-- <div class="footer">copyright 2020 - kleefi.com</div> -->
 
-    </html>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script type="text/javascript">
+    function saveContact(event) {
+      event.preventDefault(); 
+      var form = $('#formContact').find('form');
+      form.submit(function() { 
+        var options = {
+          target: '#formContact',
+          url: 'src/contact_save.php',
+          type: 'post'
+        };
+        $(this).ajaxSubmit(options); 
+        return false; 
+      });
+      form.submit();
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/jquery.form.js"></script>
+
+  </html>
